@@ -86,9 +86,21 @@ vai fazer o alinhamento no sentido do *cross-axis (eixo transversal)*
 
 OBS: o align items não tem as opções de espaçamento.
 
-
 # ALINHAMENTO DE UM ELEMENTO AO CENTRO DO ECRÃ
 Propriedade que vão ser usadas no Conteiner. independentemente do formato do conteiner o item vai ficar no meio da tela.
 
 --- *justify-content: center;*
 --- *align-items: center;*
+
+# ALINHAMENTO DE CONTEÚDO EMPACOTADO (CONTEINER)
+Alinha os elementos no eixo transversal __cross-axis__ mas quando eles estão empacotados.
+
+--- *align-content: strech;* vai pegar o espeço todo e dividir pelo número de linhas, distribir os elementos nessas caixas divididas, e esticar os elementos.
+
+--- *align-content: flex-start* vai colar todos os elementos na parte superior e reservar a parte em branco.
+
+--- *align-content: flex-end* vai fazer o oposto do flex-start.
+--- *align-content: center* os items vão ficar alinhados no centro.
+--- *align-content: space-bwtween* vai colocar os itens de cima e colocar colado no cross start, vai pegar os items de baixo e colocar colado no cross-end e deixar o espaço do meio livre.
+--- *align-content: space-evenly*
+--- *align-content: space-around*
