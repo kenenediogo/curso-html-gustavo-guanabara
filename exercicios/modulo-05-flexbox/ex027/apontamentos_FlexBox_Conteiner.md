@@ -1,11 +1,11 @@
-Ctrl + K; Ctrl + C -> Combinação para fazer comentário no VsCode
+# Ctrl + K; Ctrl + C -> Combinação para fazer comentário no VsCode
 
-# Flex Conteiner - PAI: É o "Conteiner", que vai levar a configuração de:
+## Flex Conteiner - PAI: É o "Conteiner", que vai levar a configuração de
 
 --- *"Display: Flex"*
 --- *flex-wrap:* __nowrap, wrap e wrap-reverse__
 
-# ITEM - Flex-items - FILHOS: São os blocos que estão dentro do Conteiner
+## ITEM - Flex-items - FILHOS: São os blocos que estão dentro do Conteiner
 
 --- *flex: auto;* - alinha automaticamente os blocos, isto é, distribui todos no tamanho da janela, não permite ter espaços em branco dentro do conteiner. Ele se ajusta ao tamanho do bloco, e quando não tiver mais espaço, dependendo do tipo de direção, ele segue o flex-flow. Não funciona no pai (conteiner) só no filho.
 
@@ -13,7 +13,7 @@ O flex: auto, quando for usar em colunas, temos que ter uma altura consideravel 
 
 --- *text-align: center;*
 
-# DIRECÇÕES E EIXOS
+## DIRECÇÕES E EIXOS
 
 __flex-direction:__
 
@@ -55,7 +55,7 @@ Exemplo sem o Short-hand:
 Exemplo Short-hand: substituindo os dois, vamos usar:
 *flex-flow: row nowrap;*
 
-# ALINHAMENTO NOS EIXOS (o que fazer com os ítems)
+## ALINHAMENTO NOS EIXOS (o que fazer com os ítems)
 
 __justify-content e align-items:__ são configurados dentro do conteiner.
 
@@ -86,13 +86,15 @@ vai fazer o alinhamento no sentido do *cross-axis (eixo transversal)*
 
 OBS: o align items não tem as opções de espaçamento.
 
-# ALINHAMENTO DE UM ELEMENTO AO CENTRO DO ECRÃ
+## ALINHAMENTO DE UM ELEMENTO AO CENTRO DO ECRÃ
+
 Propriedade que vão ser usadas no Conteiner. independentemente do formato do conteiner o item vai ficar no meio da tela.
 
 --- *justify-content: center;*
 --- *align-items: center;*
 
-# ALINHAMENTO DE CONTEÚDO EMPACOTADO (CONTEINER)
+## ALINHAMENTO DE CONTEÚDO EMPACOTADO (CONTEINER)
+
 Alinha os elementos no eixo transversal __cross-axis__ mas quando eles estão empacotados.
 
 --- *align-content: strech;* vai pegar o espeço todo e dividir pelo número de linhas, distribir os elementos nessas caixas divididas, e esticar os elementos.
