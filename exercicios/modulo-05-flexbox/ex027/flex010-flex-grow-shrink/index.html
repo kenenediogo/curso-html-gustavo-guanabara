@@ -20,19 +20,34 @@
             text-align: center;
             /* padding: 20px; */
             margin: 2px;
-            flex-basis: 150px;
+            flex-basis: 200px;
+            /* flex-shrink: 1;
+            flex-grow: 1; */
         }
+
+        div#ia {
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        div#ib {
+            flex-grow: 4;
+            flex-shrink: 0;
+        }
+
+        div#ic {
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">Outro Conteúdo</div>
-        <div class="item">C</div>
-        <div class="item">Conteúdo um pouco maior</div>
-        <div class="item">E</div>
-        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço</div>
-        <div class="item">G</div>
+        <div class="item" id="ia">A</div>
+        <div class="item" id="ib">B</div>
+        <div class="item" id="ic">C</div>
+
     </div>
 </body>
 </html>
