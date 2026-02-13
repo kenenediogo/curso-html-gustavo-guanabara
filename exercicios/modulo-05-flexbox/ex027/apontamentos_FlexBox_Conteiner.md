@@ -50,7 +50,7 @@ __flex-flow:__
 
 Exemplo sem o Short-hand:
 *flex-direction: row;*
-*flex-wrp: norap;*
+*flex-wrap: nowrap;*
 
 Exemplo Short-hand: substituindo os dois, vamos usar:
 *flex-flow: row nowrap;*
