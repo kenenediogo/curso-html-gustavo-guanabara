@@ -9,14 +9,17 @@
     height: 100vh;
     display: grid;
     /* grid-template: repeat(4, 100px) / repeat(2, 1fr); */
-    grid-template: 80px 40px 1fr 40px / 1fr 150px;
+    grid-template: 80px 40px 1fr 40px / 1fr 200px;
     gap: 0.5rem;
 }
 
 .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightseagreen;
     border: 1px solid black;
